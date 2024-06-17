@@ -6,7 +6,7 @@
 #    By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/20 18:30:37 by kkeirouz          #+#    #+#              #
-#    Updated: 2024/05/29 10:35:49 by kkeirouz         ###   ########.fr        #
+#    Updated: 2024/06/06 10:39:16 by kkeirouz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,7 @@ SRCS	=	ft_atoi.c \
 		ft_strtrim.c \
 		ft_substr.c \
 		ft_tolower.c \
-		ft_toupper.c
+		ft_toupper.c \
 
 SRC_BONUS	=	ft_lstadd_back.c \
 			ft_lstadd_front.c \

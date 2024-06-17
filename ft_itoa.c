@@ -6,7 +6,7 @@
 /*   By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/20 11:53:18 by kkeirouz          #+#    #+#             */
-/*   Updated: 2024/06/01 11:23:33 by kkeirouz         ###   ########.fr       */
+/*   Updated: 2024/06/17 16:36:30 by kkeirouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*
+
 int	main()
 {
 	int	i;
@@ -72,4 +72,4 @@ int	main()
 	printf("pour %d, voici: %s\n", i, ft_itoa(i));
 	printf("pour %d, voici: %s\n", j, ft_itoa(j));
 }
-*/	
+	

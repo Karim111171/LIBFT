@@ -6,7 +6,7 @@
 /*   By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:52:12 by kkeirouz          #+#    #+#             */
-/*   Updated: 2024/05/25 14:44:53 by kkeirouz         ###   ########.fr       */
+/*   Updated: 2024/06/17 16:46:15 by kkeirouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-
-/*#include <stdio.h>
+/*
+#include <stdio.h>
 #include <stdlib.h>
 
 int	main(int argc, char **argv)

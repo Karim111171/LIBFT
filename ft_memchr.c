@@ -6,13 +6,13 @@
 /*   By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:46:51 by kkeirouz          #+#    #+#             */
-/*   Updated: 2024/05/27 14:41:28 by kkeirouz         ###   ########.fr       */
+/*   Updated: 2024/06/03 14:19:12 by kkeirouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memchr(const void *s, size_t c, size_t n)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned char	*ptr;
 	size_t			i;

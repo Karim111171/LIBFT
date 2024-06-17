@@ -6,7 +6,7 @@
 /*   By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:20:07 by kkeirouz          #+#    #+#             */
-/*   Updated: 2024/05/26 10:45:44 by kkeirouz         ###   ########.fr       */
+/*   Updated: 2024/06/02 10:06:38 by kkeirouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memset(void *s, int c, size_t n)
 
 	ptr = (unsigned char *)s;
 	while (n--)
-	{
 		*ptr++ = (unsigned char)c;
-	}
 	return (s);
 }

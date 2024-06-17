@@ -6,7 +6,7 @@
 /*   By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:21:11 by kkeirouz          #+#    #+#             */
-/*   Updated: 2024/05/27 09:33:33 by kkeirouz         ###   ########.fr       */
+/*   Updated: 2024/06/17 16:44:50 by kkeirouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset((unsigned char *)s, 0, n);
 }
+
 /*
 #include <stdio.h>
 

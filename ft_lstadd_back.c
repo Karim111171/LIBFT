@@ -6,7 +6,7 @@
 /*   By: kkeirouz <kkeirouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 15:14:17 by kkeirouz          #+#    #+#             */
-/*   Updated: 2024/05/26 10:33:58 by kkeirouz         ###   ########.fr       */
+/*   Updated: 2024/06/04 16:42:55 by kkeirouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	{
 		current = *lst;
 		while (current->next != NULL)
-		current = current->next;
+			current = current->next;
 		current->next = new;
 	}
 }
